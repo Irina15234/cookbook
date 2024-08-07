@@ -8,8 +8,8 @@ class HomeViewModel : ViewModel() {
         FoodCategory("soup", "Супы", R.drawable.soup),
         FoodCategory("salad", "Салаты", R.drawable.salad),
         FoodCategory("appetizer", "Закуски", R.drawable.appetizer),
-        FoodCategory("hot", "Горячее", 0),
-        FoodCategory("dessert", "Десерты", 0),
+        FoodCategory("hot", "Горячее", R.drawable.hot),
+        FoodCategory("dessert", "Десерты", R.drawable.dessert),
     );
 }
 
